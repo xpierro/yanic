@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<servers>
+  <server name="test" >
+    <network>
+      <host>irc.recycled-irc.net</host>
+      <port>6667</port>
+    </network>
+    <user>
+      <nickname>pierre</nickname>
+      <ghost>pierreghost</ghost>
+      <username>user</username>
+      <realname>real</realname>
+    </user>
+    <favorite id="0" >#fsf</favorite>
+    <favorite id="1" >#Kyubi-Wolf</favorite>
+    <command>/ns identify albachat</command>
+  </server>
+</servers>
