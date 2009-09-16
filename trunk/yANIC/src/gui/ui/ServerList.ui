@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>318</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>318</width>
+    <height>346</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>318</width>
+    <height>346</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="userInfo">
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Informations utilisateur&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="nicknameLabel">
+     <property name="text">
+      <string>&amp;Pseudonyme :</string>
+     </property>
+     <property name="buddy">
+      <cstring>nicknameEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLineEdit" name="nicknameEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="secondChoiceLabel">
+     <property name="text">
+      <string>Second choix :</string>
+     </property>
+     <property name="buddy">
+      <cstring>secondChoiceEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QLineEdit" name="secondChoiceEdit"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="thirdChoiceLabel">
+     <property name="text">
+      <string>Troisième choix :</string>
+     </property>
+     <property name="buddy">
+      <cstring>thirdChoiceEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QLineEdit" name="thirdChoiceEdit"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="usernameLabel">
+     <property name="text">
+      <string>Nom d'&amp;utilisateur :</string>
+     </property>
+     <property name="buddy">
+      <cstring>usernameEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="2">
+    <widget class="QLineEdit" name="usernameEdit"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="realNameLabel">
+     <property name="text">
+      <string>Nom &amp;réel :</string>
+     </property>
+     <property name="buddy">
+      <cstring>realNameEdit</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1" colspan="2">
+    <widget class="QLineEdit" name="realNameEdit"/>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="QLabel" name="networks">
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Réseaux&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" rowspan="4" colspan="2">
+    <widget class="QListWidget" name="networkList"/>
+   </item>
+   <item row="7" column="2">
+    <widget class="QPushButton" name="addButton">
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QPushButton" name="removeButton">
+     <property name="text">
+      <string>Enlever</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QPushButton" name="editButton">
+     <property name="text">
+      <string>Editer</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <widget class="QPushButton" name="sortButton">
+     <property name="text">
+      <string>Trier</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0" colspan="3">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QPushButton" name="closeButton">
+     <property name="text">
+      <string>Fermer</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="2">
+    <widget class="QPushButton" name="connectButton">
+     <property name="text">
+      <string>Connecter</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>nicknameEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>connectButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>262</x>
+     <y>36</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>secondChoiceEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>connectButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>324</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>thirdChoiceEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>connectButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>264</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usernameEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>connectButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>127</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>290</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>realNameEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>connectButton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>132</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>330</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>124</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
